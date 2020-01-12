@@ -47,3 +47,9 @@ public func <=<A: LayoutAnchor>(lhs: LayoutProperty<A>, rhs: (A, CGFloat)) -> NS
 public func <=<A: LayoutAnchor>(lhs: LayoutProperty<A>, rhs: A) -> NSLayoutConstraint {
     return lhs.lessThanOrEqual(to: rhs)
 }
+
+// Height & Width
+@discardableResult
+public func ==<A: LayoutDimensionAnchor>(lhs: LayoutDimensionProperty<A>, rhs: CGFloat) -> NSLayoutConstraint {
+    return lhs.equal(to: rhs)
+}

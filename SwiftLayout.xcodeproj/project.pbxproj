@@ -11,7 +11,6 @@
 		45158B4023CB74D300A14503 /* LayoutProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45158B3F23CB74D300A14503 /* LayoutProperty.swift */; };
 		45158B4223CB751800A14503 /* Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45158B4123CB751800A14503 /* Proxy.swift */; };
 		45158B4423CB754200A14503 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45158B4323CB754200A14503 /* UIView+Extension.swift */; };
-		453DCD552392A161009B161A /* SwiftLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 453DCD532392A161009B161A /* SwiftLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		453DCD652393E5DC009B161A /* OperatorOverload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453DCD642393E5DC009B161A /* OperatorOverload.swift */; };
 /* End PBXBuildFile section */
 
@@ -21,7 +20,6 @@
 		45158B4123CB751800A14503 /* Proxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proxy.swift; sourceTree = "<group>"; };
 		45158B4323CB754200A14503 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		453DCD502392A161009B161A /* SwiftLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		453DCD532392A161009B161A /* SwiftLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftLayout.h; sourceTree = "<group>"; };
 		453DCD542392A161009B161A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		453DCD642393E5DC009B161A /* OperatorOverload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorOverload.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,7 +54,6 @@
 		453DCD522392A161009B161A /* SwiftLayout */ = {
 			isa = PBXGroup;
 			children = (
-				453DCD532392A161009B161A /* SwiftLayout.h */,
 				453DCD542392A161009B161A /* Info.plist */,
 				453DCD642393E5DC009B161A /* OperatorOverload.swift */,
 				45158B3D23CB747C00A14503 /* LayoutAnchor.swift */,
@@ -74,7 +71,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				453DCD552392A161009B161A /* SwiftLayout.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
